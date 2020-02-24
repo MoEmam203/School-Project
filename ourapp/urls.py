@@ -5,5 +5,5 @@ from django.conf.urls import url
 app_name='ourapp'
 
 urlpatterns=[
-    path('',views.homepage,name='index'),
+    path('',views.login,name='index'),
 ]
